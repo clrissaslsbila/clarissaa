@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DPR - Dream Perfect Regime</title>
+	<link rel="icon" type="images/x-icon" href="images/download.png">
+	<link rel="stylesheet" href="index.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+</head>
+<body>
+<section id="banner">
+	<img src="images/WhatsApp Image 2022-11-13 at 16.26.14.jpeg" class="logo">
+	<div class="banner-text">
+		<h1>DPR</h1>
+		<p>Dream Perfect Regime</p>
+		<div class="banner-btn">
+			<a href="#"><span></span>Find Out</a>
+			<a href="#"><span></span>Read More</a>
+		</div>
+	</div>
+</section>
+
+<div id="sideNav">
+	<nav>
+	<ul>
+		<li><a href="#banner">HOME</a></li>
+		<li><a href="#About">ABOUT</a></li>
+		<li><a href="#Music">MUSIC</a></li>
+		<li><a href="#creatives">CREATIVES</a></li>
+	</ul>
+	</nav>
+</div>
+<div id="menuBtn">
+	<img src="images/WhatsApp Image 2022-11-13 at 18.11.40.jpeg" id="menu">
+</div>
+
+<!--About-->
+
+<section id="About">
+<div class="title-text">
+<p>Dream Perfect Regime</p>
+<h1>Dream perfect regime (dpr) is a multigenre music and video group. We create, direct, produce,<br> and edit all types of visual work as well as curate artists that derive from various musical<br> backgrounds and influences. Based in Seoul, our collective's main focus is to engage all<br> audiences by actualizing a distinctive audiovisual experience.</h1>
+</div>
+<div class="fe">
+</div>
+</section>
+
+<!--Music-->
+
+<section id="Music">
+	<div class="title-text">
+	<p>Music</p>
+	</div>
+	<div class="music-box">
+		<div class="single-music">
+			<img src="images/dpr-ian-moodswings-in-to-ordor.jpg">
+			<div class="overlay"></div>
+			<div class="music-desc">
+				<h3>MOODSWINGS IN TO ORDER</h3>
+			</div>
+		</div>
+		<div class="single-music">
+			<img src="images/9dffd219-d791-4b77-b9eb-deffa554a859.jpg">
+			<div class="overlay"></div>
+			<div class="music-desc">
+				<h3>IITE COOL</h3>
+			</div>
+		</div>
+		<div class="single-music">
+			<img src="images/https___images.genius.com_caf45e4ef6803f69e3622d183d75df04.1000x1000x1.png">
+			<div class="overlay"></div>
+			<div class="music-desc">
+				<h3>NO BLUEBERRIES</h3>
+			</div>
+		</div>
+		<div class="single-music">
+			<img src="images/d444d90d4ff82241a00465579f6f1eb7.1000x1000x1.jpg">
+			<div class="overlay"></div>
+			<div class="music-desc">
+				<h3>JAM & BUTTERFLY</h3>
+			</div>
+		</div>
+	</div>
+
+</section>
+
+<!--Creatives-->
+
+<section id="creatives">
+	<div class="title-text">
+	<p>Creatives</p>
+	<div class="col-3">
+		<h4>DPR LIVE</h4>
+		<a href="https://instagram.com/dprlive?igshid=YmMyMTA2M2Y="> IG </a>
+		<a href="https://twitter.com/_DPRLIVE?t=5Bt6CjMBWxlFvnfgBAfR1A&s=08"> TWITTER </a>
+	</div>
+
+	<div class="col-3">
+		<h4>DPR +IAN</h4>
+		<a href="https://instagram.com/dprian?igshid=YmMyMTA2M2Y="> IG </a>
+		<a href="https://twitter.com/DPRIAN_?t=CARN47zAhw8u1pAf-4VFRA&s=08"> TWITTER </a>
+	</div>
+
+	<div class="col-3">
+		<h4>DPR REM</h4>
+		<a href="https://instagram.com/dprrem?igshid=YmMyMTA2M2Y="> IG </a>
+		<a href="https://twitter.com/_DPRREM?t=CTjOcLRjSgXHPejlJwnt5g&s=08"> TWITTER </a>
+	</div>
+	</div>
+</section>
+
+<!-- bagian footer -->
+	<footer>
+		<div class="container">
+			<small>Copyright &copy; 2022 - Dream Perfect Regime.</small>
+		</div>
+	</footer>
+
+
+<script>
+var menuBtn = document.getElementById("menuBtn")
+var sideNav = document.getElementById("sideNav")
+var menu = document.getElementById("menu")
+
+sideNav.style.right = "-250px";
+
+menuBtn.onclick = function(){
+	if(sideNav.style.right == "-250px"){
+		sideNav.style.right = "0";
+		menu.src = "images/WhatsApp Image 2022-11-13 at 18.55.34.jpeg";
+	}
+	else{
+		sideNav.style.right = "-250px";
+		menu.src = "images/WhatsApp Image 2022-11-13 at 18.11.40.jpeg";
+	}
+}
+
+var scroll = new SmoothScroll('a[href*="#"]',{
+	speed: 1000,
+	speedAsDuration: true
+});
+
+</script>
+
+</body>
+</html>
